@@ -1,12 +1,194 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Distributed Book System</title>
+
+    <style>
+
+        body{
+        font-family:Arial;
+        max-width:1000px;
+        margin:auto;
+        padding:40px;
+        line-height:1.7;
+        background:#f5f5f5;
+        }
+
+        .container{
+        background:white;
+        padding:40px;
+        border-radius:12px;
+        box-shadow:0 0 20px rgba(0,0,0,.08);
+        }
+
+        h1{
+        color:#1565C0;
+        }
+
+        .section{
+        margin-top:30px;
+        }
+
+        .code{
+        background:#eee;
+        padding:10px;
+        border-radius:6px;
+        }
+
+        a{
+        color:#1565C0;
+        text-decoration:none;
+        }
+
+    </style>
+
 </head>
+
 <body>
-<h1>Distributed Book System</h1>
-<p>Java distributed system project with load balancing, replication, and leader election.</p>
-<p><a href="https://github.com/alaaalzien163/distributed-book-system">GitHub Repository</a></p>
+
+<div class="container">
+
+    <h1>Distributed Book System</h1>
+
+    <p>
+        Final Project – Distributed Systems
+    </p>
+
+    <hr>
+
+    <div class="section">
+
+        <h2>Student Information</h2>
+
+        <p><strong>Name:</strong> Alaa</p>
+
+    </div>
+
+    <div class="section">
+
+        <h2>Project Description</h2>
+
+        <p>
+            A distributed library management system implemented in Java using Socket Programming.
+            The system supports multiple backend servers, request routing, replication and leader election.
+        </p>
+
+    </div>
+
+    <div class="section">
+
+        <h2>Implemented Features</h2>
+
+        <ul>
+
+            <li>Client / Server Architecture</li>
+
+            <li>Load Balancer</li>
+
+            <li>Sticky Session</li>
+
+            <li>Round Robin Distribution</li>
+
+            <li>Health Check</li>
+
+            <li>Heartbeat Monitoring</li>
+
+            <li>Fault Tolerance</li>
+
+            <li>Replication Between Servers</li>
+
+            <li>Bully Leader Election</li>
+
+            <li>Serialization</li>
+
+            <li>Pass By Value</li>
+
+            <li>Distributed Storage</li>
+
+        </ul>
+
+    </div>
+
+    <div class="section">
+
+        <h2>System Components</h2>
+
+        <ul>
+
+            <li>BookClient</li>
+
+            <li>LoadBalancer</li>
+
+            <li>BookServer</li>
+
+            <li>BookService</li>
+
+            <li>BookStoreFile</li>
+
+            <li>Shared Request / Response</li>
+
+        </ul>
+
+    </div>
+
+    <div class="section">
+
+        <h2>Technologies</h2>
+
+        <ul>
+
+            <li>Java</li>
+
+            <li>Socket Programming</li>
+
+            <li>Multithreading</li>
+
+            <li>Serialization</li>
+
+            <li>Distributed Systems Concepts</li>
+
+        </ul>
+
+    </div>
+
+    <div class="section">
+
+        <h2>GitHub Repository</h2>
+
+        <p>
+
+            <a href="https://github.com/alaaalzien163/distributed-book-system">
+
+                Open Repository
+
+            </a>
+
+        </p>
+
+    </div>
+
+    <div class="section">
+
+        <h2>How To Run</h2>
+
+        <div class="code">
+
+            Start Server-1 → 5001<br>
+            Start Server-2 → 5002<br>
+            Start Server-3 → 5003<br>
+            Start LoadBalancer → 6000<br>
+            Run BookClient
+
+        </div>
+
+    </div>
+
+</div>
+
 </body>
+
 </html>
